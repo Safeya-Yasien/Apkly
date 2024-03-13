@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <!-- slick -->
-    <link
-      rel="stylesheet"
-      href="assets/vendor/slick-carousel/slick/slick.css"
-    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
     <!-- font awsome -->
     <link
       rel="stylesheet"
@@ -40,8 +36,9 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto menu-items">
             <li class="nav-item">
@@ -53,7 +50,7 @@
               <a class="nav-link" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#feature">Feature</a>
+              <a class="nav-link" href="#features">Feature</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#price">Price</a>
@@ -69,7 +66,7 @@
       </div>
     </nav>
 
-    <div class="landing">
+    <div class="landing" id="landing">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-6 banner-text">
@@ -95,7 +92,12 @@
       </div>
     </div>
 
-    <div class="overview position-relative">
+    <div class="overview position-relative" id="overview">
+      <div class="backtotop">
+        <a href="#landing">
+          <i class="fa fa-rocket"></i>
+        </a>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center special-heading">
@@ -103,7 +105,7 @@
           </div>
         </div>
 
-        <div class="row overview-p">
+        <div class="row overview-p overflow-hidden">
           <div class="col-lg-6 overview-box">
             <div
               id="carouselExampleSlidesOnly"
@@ -216,7 +218,688 @@
                   </div>
                 </div>
               </div>
+              <a
+                href="#carouselExampleSlidesOnly"
+                class="carousel-control-next"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span
+              ></a>
+              <a
+                href="#carouselExampleSlidesOnly"
+                class="carousel-control-prev"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span
+              ></a>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="features" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center special-heading">
+            <h2>Features</h2>
+          </div>
+        </div>
+
+        <div class="row features-content">
+          <div class="col-lg-6 col-md-12 f-img">
+            <img src="imgs/features.png" alt="features" />
+          </div>
+
+          <div class="col-lg-6 col-md-12 f-text">
+            <h2>UNLOCK THE BEST,</h2>
+            <h3>App Features Here</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit Iste
+              laboriosam facilis dolorem, adipisci quis perspiciatis!
+            </p>
+            <ul>
+              <li>
+                <i class="fa fa-rocket"></i>
+                Light weight & super fast
+              </li>
+              <li>
+                <i class="fa fa-lock"></i>
+                Strong security With privacy Care
+              </li>
+              <li>
+                <i class="fa fa-question"></i>
+                Best support from our big community
+              </li>
+              <li>
+                <i class="fa fa-cog"></i>
+                Latest updates on every week and stress free
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="count">
+      <div class="container">
+        <div class="row position-relative count-content">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col counter-1">
+                <div class="box text-center">
+                  <div class="chart position-relative" data-percent="75">
+                    <span> 1.5B </span>
+                  </div>
+                  <h4>Download</h4>
+                </div>
+              </div>
+              <div class="col counter-1">
+                <div class="box text-center">
+                  <div class="chart position-relative" data-percent="65">
+                    <span>4.6</span>
+                  </div>
+                  <h4>Rating</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col counter-1">
+                  <div class="box text-center">
+                    <div class="chart position-relative" data-percent="55">
+                      <span>500M</span>
+                    </div>
+                    <h4>Active User</h4>
+                  </div>
+                </div>
+                <div class="col counter-1">
+                  <div class="box text-center">
+                    <div class="chart position-relative" data-percent="45">
+                      <span>13K</span>
+                    </div>
+                    <h4>Updates</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="count-i text-center">
+              <a
+                class="veno-box"
+                href="https://www.youtube.com/watch?v=nuktTVmoKfc"
+              >
+                <i class="fa fa-play"></i>
+              </a>
+              <p>Watch Our Story</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="price" id="price">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center special-heading">
+            <h2>Features</h2>
+          </div>
+        </div>
+        <div class="row overview-p text-center">
+          <div class="col-lg-4 col-md-6 col-sm-9 col-11 m-responsive">
+            <div class="price-main">
+              <div class="price-item">
+                <div class="price-header">
+                  <h3>Basic</h3>
+                  <span>$10/month</span>
+                </div>
+                <div class="all-p">
+                  <p>25 GB Backup</p>
+                  <p>limited support</p>
+                  <p>Fastest load speed</p>
+                </div>
+                <a class="special-button" href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-9 col-11 m-responsive">
+            <div class="price-main">
+              <div class="price-item">
+                <div class="price-header">
+                  <h3>Free</h3>
+                  <span>$10/month</span>
+                </div>
+                <div class="all-p">
+                  <p>25 GB Backup</p>
+                  <p>limited support</p>
+                  <p>Fastest load speed</p>
+                </div>
+                <a class="special-button ex-btn" href="#">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-9 col-11 m-md-auto m-responsive">
+            <div class="price-main">
+              <div class="price-item">
+                <div class="price-header">
+                  <h3>Advance</h3>
+                  <span>$10/month</span>
+                </div>
+                <div class="all-p">
+                  <p>25 GB Backup</p>
+                  <p>limited support</p>
+                  <p>Fastest load speed</p>
+                </div>
+                <a class="special-button" href="#">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center special-heading">
+            <h2>solution</h2>
+          </div>
+        </div>
+        <div class="row f-p">
+          <div class="col-lg-6">
+            <div class="pro-text">
+              <h2>need more information</h2>
+              <h3>ask our community</h3>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    01. App User Experience & Interface?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Non quis voluptatibus saepe architecto officiis
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    02. Apps Performance and Security?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Non quis voluptatibus saepe architecto officiis
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    03. Best Color Visions &amp; Combination?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Non quis voluptatibus saepe architecto officiis
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 f-img">
+            <img src="imgs/features.png" alt="features" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center faq-bottom-btn">
+            <a class="special-button ex-btn" href="#">Visit Community</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center special-heading down-oh">
+            <h2>Features</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 download-p">
+            <div class="download-head">
+              <h2>App Avaliable</h2>
+              <h3>Get It Now Free</h3>
+            </div>
+            <div class="download-details">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam nihil praesentium vel voluptates eos id cumque, dolore
+                accusantium iure eaque nisi molestiae
+              </p>
+              <p>
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.
+              </p>
+              <a class="special-button ex-btn" href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="download-item">
+              <div class="download-icon">
+                <i class="fa-brands fa-android"></i>
+              </div>
+              <h3>Android</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adiing elit, sed do
+                eiusmod tempor
+              </p>
+              <a class="special-button" href="#">Download</a>
+            </div>
+            <div class="download-item download-item-2">
+              <div class="download-icon">
+                <i class="fa-brands fa-windows"></i>
+              </div>
+              <h3>Android</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adiing elit, sed do
+                eiusmod tempor
+              </p>
+              <a class="special-button" href="#">Download</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="download-item download-item-3">
+              <div class="download-icon">
+                <i class="fa-brands fa-apple"></i>
+              </div>
+              <h3>Android</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adiing elit, sed do
+                eiusmod tempor
+              </p>
+              <a class="special-button" href="#">Download</a>
+            </div>
+            <div class="download-item download-item-4">
+              <div class="download-icon">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <h3>Android</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adiing elit, sed do
+                eiusmod tempor
+              </p>
+              <a class="special-button" href="#">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center special-heading down-oh">
+            <h2>Blogs</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+            <div class="blog-item">
+              <img class="w-100" src="imgs/blog.jpg" alt="blog" />
+            </div>
+            <div class="blog-text-main">
+              <h3>How to increase your audience?</h3>
+              <span class="extra1">Posted by Apkly</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+                repellat possimus porro, aliquid perspiciatis dolorem
+                praesentium numquam suscipit unde adipisci.
+              </p>
+              <a href="#"
+                >Read More
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+              ></a>
+              <div class="user-data">
+                <span><i class="fa-regular fa-thumbs-up"></i> 2.5k</span>
+                <span><i class="fa-regular fa-comment"></i> 123</span>
+                <span><i class="fa-regular fa-share-from-square"></i> 1k</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 blog-right-item">
+                <div class="blog-item l-m shadow-effect2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="blog-img">
+                        <img
+                          src="imgs/blog1.jpg"
+                          alt="blog1"
+                          class="img-fluid w-100"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 extra2">
+                      <div class="blog-text blog-text2">
+                        <span class="extra1">5 Aguest, 2019</span>
+                        <h3>Account Security &amp; safety</h3>
+                        <a href="#"
+                          >Read More
+                          <i
+                            class="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i
+                        ></a>
+                        <div class="user-data">
+                          <span
+                            ><i class="fa-regular fa-thumbs-up"></i> 2.5k</span
+                          >
+                          <span><i class="fa-regular fa-comment"></i> 123</span>
+                          <span
+                            ><i class="fa-regular fa-share-from-square"></i>
+                            1k</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <div class="blog-item l-m shadow-effect2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="blog-img">
+                        <img
+                          src="imgs/blog3.jpg"
+                          alt="blog2"
+                          class="img-fluid w-100"
+                        />
+                        <div class="blog-over"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 extra2">
+                      <div class="blog-text blog-text2">
+                        <span class="extra1">25 February, 2019</span>
+                        <h3>New updates and bug fix</h3>
+                        <a href="#"
+                          >Read More<i
+                            class="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </a>
+                        <div class="user-data">
+                          <span
+                            ><i
+                              class="fa fa-thumbs-o-up"
+                              aria-hidden="true"
+                            ></i>
+                            2.5k</span
+                          >
+                          <span
+                            ><i class="fa fa-comment-o" aria-hidden="true"></i>
+                            123</span
+                          >
+                          <span
+                            ><i
+                              class="fa fa-share-square-o"
+                              aria-hidden="true"
+                            ></i>
+                            1k</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 blog-right-item">
+                <div class="blog-item l-m shadow-effect2">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <div class="blog-img">
+                        <img
+                          src="imgs/blog1.jpg"
+                          alt="blog1"
+                          class="img-fluid w-100"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 extra2">
+                      <div class="blog-text blog-text2">
+                        <span class="extra1">5 Aguest, 2019</span>
+                        <h3>Account Security &amp; safety</h3>
+                        <a href="#"
+                          >Read More
+                          <i
+                            class="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i
+                        ></a>
+                        <div class="user-data">
+                          <span
+                            ><i class="fa-regular fa-thumbs-up"></i> 2.5k</span
+                          >
+                          <span><i class="fa-regular fa-comment"></i> 123</span>
+                          <span
+                            ><i class="fa-regular fa-share-from-square"></i>
+                            1k</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container zindex2">
+        <div class="row">
+          <div
+            class="col-lg-12 text-center overview-head down-oh color-fit wh mix-pro"
+          >
+            <h2>CONTACT</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 m-auto">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <form>
+                  <div class="form-group mix">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Your First
+                      Name
+                    </p>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Ex. Shakib"
+                    />
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <form>
+                  <div class="form-group mix">
+                    <p>
+                      <i class="fa fa-user" aria-hidden="true"></i> Your Last
+                      Name
+                    </p>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Ex. Alam"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row input-pa">
+              <div class="col-lg-12 col-md-12">
+                <form>
+                  <div class="form-group mix">
+                    <p>
+                      <i class="fa fa-envelope" aria-hidden="true"></i> Your
+                      Email Address
+                    </p>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="name@exmple.com"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row input-pa">
+              <div class="col-lg-12 col-md-12">
+                <form>
+                  <div class="form-group mix">
+                    <p>
+                      <i class="fa fa-comments" aria-hidden="true"></i> Send Us
+                      Message
+                    </p>
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      placeholder="......."
+                    ></textarea>
+                  </div>
+                  <div class="input-btn-pa mix">
+                    <div class="faq-bottom-btn text-center">
+                      <a href="#"
+                        ><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        Send Message</a
+                      >
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <a class="navbar-brand nb-2" href="index.html"><b>Apkly.</b></a>
+          </div>
+          <div class="col-lg-5 col-md-6 ml-auto">
+            <form>
+              <div class="form-group fg2 position-relative">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="Subscribe Now"
+                />
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa-regular fa-paper-plane"></i> Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row no-p2 pt-5">
+          <div class="col-lg-3 col-sm-6 col-md-6 footer-text">
+            <h3>About Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Praesentium ipsa quisquam nam eos facilis vero dolorum. Sit earum
+              ea blanditiis
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 footer-text">
+            <h3>Our Menu</h3>
+            <a href="#">Home</a>
+            <a href="#">Overview</a>
+            <a href="#">Feature</a>
+            <a href="#">Download</a>
+            <a href="#">Others</a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 footer-text">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Google+</a>
+            <a href="#">Youtube</a>
+            <a href="#">Instagram</a>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-6 footer-text">
+            <h3>Other Features</h3>
+            <a href="#">Affiliate</a>
+            <a href="#">FAQ</a>
+            <a href="#">Tutorial</a>
+            <a href="#">Groups</a>
+            <a href="#">Others</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center copyright-text">
+            <p>Copyright©2018 - Design by <a href="index.html">Apkly</a></p>
           </div>
         </div>
       </div>
@@ -224,7 +907,14 @@
 
     <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+      integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

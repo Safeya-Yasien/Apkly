@@ -1,8 +1,11 @@
 # Apkly
 
-Live Demo: <br><br>
+<br>get inspired from <br>
+https://epiktheme.com/demos/html/apkly/demo/index2.html#
+<br>
+<br>
 
-<!-- toggler color white-->
-<!--  -->
+- screenshot<br>
+- comment or testmonials<br><br>
 
 https://Safeya-Yasien.github.io/Apkly/
